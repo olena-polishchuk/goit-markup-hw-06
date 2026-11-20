@@ -68,15 +68,34 @@ address {
   background-color: #404bbf;
 }
 
+/* Helper class */
+.hide {
+  display: none;
+}
+
 /* Common styles */
 
 .container {
   width: 100%;
-  max-width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding: 0 15px;
+  }
 }
 
 .section {
