@@ -1,6 +1,6 @@
 .hero {
-  max-width: 1440px;
-  height: 600px;
+  max-width: 320px;
+  height: 432px;
   margin: 0 auto;
   padding: 0;
   background-color: #2e2f42;
@@ -12,20 +12,61 @@
   background-size: cover;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    height: 436px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    max-width: 1440px;
+    height: 600px;
+  }
+}
+
 .hero .container {
-  padding: 188px 0;
+  padding: 72px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero .container {
+    padding: 112px 0;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero .container {
+    padding: 188px 0;
+  }
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07143;
+  font-size: 36px;
+  line-height: 1.11111;
   text-align: center;
-  max-width: 496px;
+  max-width: 216px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07143;
+    max-width: 496px;
+    margin-bottom: 36px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero-title {
+    margin-bottom: 48px;
+  }
 }
 
 .btn-filled {

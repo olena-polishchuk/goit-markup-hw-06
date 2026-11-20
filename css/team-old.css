@@ -1,0 +1,69 @@
+.team {
+  background-color: #f4f4fd;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-card-content {
+  padding: 32px 16px;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-item:hover {
+  box-shadow:
+    0 4px 4px 0 rgba(46, 47, 66, 0.12),
+    0 2px 2px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-subtitle {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.team-icon a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-icon a:hover,
+.team-icon a:focus {
+  background-color: #404bbf;
+}

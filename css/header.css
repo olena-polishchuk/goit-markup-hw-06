@@ -1,5 +1,5 @@
 .header {
-  padding: 16px;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -18,17 +18,23 @@
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .logo {
   display: block;
-  padding: 24px 0;
+  padding: 16px 0;
   color: #4d5ae5;
 }
 
 .accent-header {
   color: #2e2f42;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    padding: 24px 0;
+  }
 }
 
 @media only screen and (max-width: 767.98px) {

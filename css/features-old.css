@@ -1,0 +1,33 @@
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.features .container {
+  display: flex;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 24px;
+}
+
+.features-item {
+  width: 264px;
+}
+
+.features-icon {
+  background-color: #f4f4fd;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+}
