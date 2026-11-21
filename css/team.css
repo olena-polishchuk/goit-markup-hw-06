@@ -24,6 +24,10 @@
   }
 }
 
+.team-img {
+  width: 100%;
+}
+
 .team-card-content {
   padding: 32px 16px;
 }
