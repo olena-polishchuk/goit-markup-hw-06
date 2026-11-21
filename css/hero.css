@@ -4,9 +4,14 @@
   margin: 0 auto;
   padding: 0;
   background-color: #2e2f42;
+
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url('../images/hero-bg.jpg');
+    image-set(
+      '../images/hero/hero-bg_mob.jpg' 1x,
+      '../images/hero/hero-bg_mob@2x.jpg' 2x
+    );
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,6 +21,12 @@
   .hero {
     max-width: 768px;
     height: 436px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        '../images/hero/hero-bg_tab.jpg' 1x,
+        '../images/hero/hero-bg_tab@2x.jpg' 2x
+      );
   }
 }
 
@@ -23,6 +34,12 @@
   .hero {
     max-width: 1440px;
     height: 600px;
+    background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      image-set(
+        '../images/hero/hero-bg_desk.jpg' 1x,
+        '../images/hero/hero-bg_desk@2x.jpg' 2x
+      );
   }
 }
 
