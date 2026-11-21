@@ -39,6 +39,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+    padding: 0 108px;
   }
 }
 
@@ -46,6 +47,8 @@
   .footer .container {
     flex-direction: row;
     gap: 0;
+    padding: 0 15px;
+    max-width: 1158px;
   }
 }
 
@@ -59,14 +62,9 @@
     width: 264px;
   }
 }
+
 .accent-footer {
   color: #f4f4fd;
-}
-
-@media only screen and (min-width: 768px) {
-  .socials-container {
-    margin-left: 24px;
-  }
 }
 
 @media only screen and (min-width: 1158px) {
@@ -94,6 +92,12 @@
   gap: 16px;
   padding: 0;
   margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .socials-list {
+    justify-content: flex-start;
+  }
 }
 
 .socials-link {
@@ -199,9 +203,9 @@
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  width: 169px;
   height: 40px;
-  max-width: 165px;
+  max-width: 169px;
   background-color: #4d5ae5;
   transition: background-color 250ms;
 }

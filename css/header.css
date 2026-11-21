@@ -5,20 +5,12 @@
 @media only screen and (min-width: 768px) {
   .header {
     border-bottom: 1px solid #e7e9fc;
-    padding: 0 16px;
-  }
-}
-
-@media only screen and (min-width: 1158px) {
-  .header {
-    padding: 0 15px;
   }
 }
 
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .logo {
@@ -115,12 +107,19 @@
   .contacts-link {
     display: block;
     white-space: nowrap;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+
     transition: color 250ms;
   }
 }
 @media only screen and (min-width: 1158px) {
   .contacts-link {
     padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
 }
 
