@@ -42,7 +42,6 @@
 
 @media only screen and (min-width: 768px) {
   .team-item {
-    max-width: none;
     width: calc((100% - 24px) / 2);
   }
 }
